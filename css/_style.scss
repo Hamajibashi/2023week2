@@ -1,0 +1,76 @@
+header {
+    ul {
+        li {
+            transition: color 0.3s;
+
+            &:nth-child(4):hover {
+                color: #00FFA3;
+            }
+        }
+    }
+}
+
+#introduction {
+    background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png');
+    height: 920px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#about-me {
+    .about {
+        width: 40%;
+    }
+
+    .about-list {
+        width: 49%;
+
+        ul {
+            gap: 24px;
+        }
+
+        li {
+            width: 48%;
+        }
+    }
+
+    .card {
+        border: 1px solid #E3E3E3;
+        box-shadow: 4px 4px 4px 0px #00000014;
+    }
+}
+
+#contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+
+    ul {
+        gap: 20px;
+
+        li {
+            box-shadow: 4px 4px 8px 0px #00000014;
+
+            &:hover {
+                border-radius: 40px;
+                box-shadow: 0px 0px 16px 3px #9094FFE5;
+            }
+        }
+
+        li:nth-child(1) {
+            img {
+                width: 162px;
+                height: 162px;
+            }
+        }
+
+    }
+}
+
+#my-projects {
+    h2 {
+        padding-left: 42.5%;
+    }
+
+    a {
+        width: fit-content;
+    }
+}

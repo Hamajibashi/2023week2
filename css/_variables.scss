@@ -1,0 +1,177 @@
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+// 顏色
+.bg {
+    &-dark {
+        background-color: #000;
+    }
+}
+
+.text {
+    &-light {
+        color: #fff;
+    }
+
+    &-green {
+        color: #00FFA3;
+    }
+}
+
+// 間距
+.p {
+    &-2 {
+        padding: 16px;
+    }
+
+    &t-5 {
+        padding-top: 40px;
+    }
+
+    &y-5 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    &y-9 {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    &y-12 {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    &y-20 {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+}
+
+.m {
+
+    // 下間距
+    &b-1 {
+        margin-bottom: 4px;
+    }
+
+    &b-2 {
+        margin-bottom: 16px;
+    }
+
+    &b-4 {
+        margin-bottom: 32px;
+    }
+
+    &b-5 {
+        margin-bottom: 36px;
+    }
+
+    // 右間距
+    &e-2 {
+        margin-right: 16px;
+    }
+
+    &e-3 {
+        margin-right: 24px;
+    }
+}
+
+// 字級
+.font {
+    &-title {
+        font-size: 128px;
+    }
+
+    &-subtitle {
+        font-size: 64px;
+    }
+
+    &-xl {
+        font-size: 40px;
+    }
+
+    &-lg {
+        font-size: 32px;
+    }
+
+    &-md {
+        font-size: 24px;
+    }
+
+    &-sm {
+        font-size: 20px;
+    }
+}
+
+// 文字對齊
+.text {
+    &-center {
+        text-align: center;
+    }
+
+    &-end {
+        text-align: end;
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+// flexbox
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+
+.button {
+    border-radius: 32px;
+    padding: 12px 24px;
+    color: #000;
+    background-color: #fff;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #00FFA3;
+    }
+}
+
+.button-dark {
+    border-radius: 32px;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #000000;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #00FFA3;
+    }
+}
