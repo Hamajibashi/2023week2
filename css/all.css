@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -197,52 +198,52 @@ header ul li:nth-child(4):hover {
   color: #00FFA3;
 }
 
-#introduction {
+.introduction {
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png");
   height: 920px;
   background-position: center center;
   background-size: cover;
 }
 
-#about-me .about {
+.about-me .about {
   width: 40%;
 }
-#about-me .about-list {
+.about-me .about-list {
   width: 49%;
 }
-#about-me .about-list ul {
+.about-me .about-list ul {
   gap: 24px;
 }
-#about-me .about-list li {
+.about-me .about-list li {
   width: 48%;
 }
-#about-me .card {
+.about-me .card {
   border: 1px solid #E3E3E3;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.0784313725);
 }
 
-#contact {
+.contact {
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
 }
-#contact ul {
+.contact ul {
   gap: 20px;
 }
-#contact ul li {
+.contact ul li {
   box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.0784313725);
 }
-#contact ul li:hover {
+.contact ul li:hover {
   border-radius: 40px;
   box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.8980392157);
 }
-#contact ul li:nth-child(1) img {
+.contact ul li:nth-child(1) img {
   width: 162px;
   height: 162px;
 }
 
-#my-projects h2 {
+.my-projects h2 {
   padding-left: 42.5%;
 }
-#my-projects a {
+.my-projects a {
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -254,7 +255,7 @@ header ul li:nth-child(4):hover {
 }
 
 body {
-  font-family: "Bruno Ace", cursive;
+  font-family: "Bruno Ace SC", cursive;
   line-height: 1.5;
 }
 body a {

@@ -10,14 +10,14 @@ header {
     }
 }
 
-#introduction {
+.introduction {
     background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png');
     height: 920px;
     background-position: center center;
     background-size: cover;
 }
 
-#about-me {
+.about-me {
     .about {
         width: 40%;
     }
@@ -40,7 +40,7 @@ header {
     }
 }
 
-#contact {
+.contact {
     background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
 
     ul {
@@ -65,7 +65,7 @@ header {
     }
 }
 
-#my-projects {
+.my-projects {
     h2 {
         padding-left: 42.5%;
     }
